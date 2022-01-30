@@ -1,11 +1,14 @@
-import Note from '../src/components/note';
+import Add from '../src/components/Add/addNote';
 import './App.css';
 
 function App() {
   return (
     <div>
-    <Note></Note>
-  </div>
+      <Add>
+      </Add>
+
+
+    </div>
   );
 }
 
